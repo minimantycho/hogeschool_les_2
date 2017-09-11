@@ -1,9 +1,9 @@
 # opdracht 2.2
-x=30
-cijferICOR=7
-cijferPROG=5.5
-cijferCSN=6
-C=(cijferICOR+cijferPROG+cijferCSN)
-print(C)
-G=C/3
-print(G)
+cijferICOR = 8
+cijferPROG = 6
+cijferCSN = 6
+cijfers = [cijferICOR, cijferPROG, cijferCSN]
+gemiddelde = sum(cijfers) / len(cijfers)
+beloning = sum(cijfers) * 3
+overzicht = "Jij krijgt €" + str(beloning) + "\nJij hebt totaal " + str(sum(cijfers)) + " cijferpunten hebt gehaald over " + str(len(cijfers)) + " vakken.\nJouw gemiddelde voor al deze vakken is: " + str(gemiddelde)
+print(overzicht)
