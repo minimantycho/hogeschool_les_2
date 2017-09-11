@@ -4,6 +4,6 @@ cijferICOR=7
 cijferPROG=5.5
 cijferCSN=6
 C=(cijferICOR+cijferPROG+cijferCSN)
-print(x)
-G=x/3
-print(g)
+print(C)
+G=C/3
+print(G)
